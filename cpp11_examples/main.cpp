@@ -95,7 +95,7 @@ int main()
 	for (auto itr = myvec.cbegin(); itr != myvec.cend(); ++itr)
 		cout << *itr << endl;
 
-	//--
+	//---
 	const std::vector<int> v(1);
 	auto a = v[0];        // a has type int
 	decltype(v[0]) b = 1; // b has type const int&, the return type of
